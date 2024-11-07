@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/devam/Downloads/Craft-master
+CMAKE_SOURCE_DIR = /Users/devam/Programs/IIT2022035/GVC/Cubiverse
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/devam/Downloads/Craft-master
+CMAKE_BINARY_DIR = /Users/devam/Programs/IIT2022035/GVC/Cubiverse
 
 # Include any dependencies generated for this target.
 include CMakeFiles/craft.dir/depend.make
@@ -72,240 +72,240 @@ include CMakeFiles/craft.dir/flags.make
 CMakeFiles/craft.dir/src/auth.c.o: CMakeFiles/craft.dir/flags.make
 CMakeFiles/craft.dir/src/auth.c.o: src/auth.c
 CMakeFiles/craft.dir/src/auth.c.o: CMakeFiles/craft.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/devam/Downloads/Craft-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/craft.dir/src/auth.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/craft.dir/src/auth.c.o -MF CMakeFiles/craft.dir/src/auth.c.o.d -o CMakeFiles/craft.dir/src/auth.c.o -c /Users/devam/Downloads/Craft-master/src/auth.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/devam/Programs/IIT2022035/GVC/Cubiverse/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/craft.dir/src/auth.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/craft.dir/src/auth.c.o -MF CMakeFiles/craft.dir/src/auth.c.o.d -o CMakeFiles/craft.dir/src/auth.c.o -c /Users/devam/Programs/IIT2022035/GVC/Cubiverse/src/auth.c
 
 CMakeFiles/craft.dir/src/auth.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/craft.dir/src/auth.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/devam/Downloads/Craft-master/src/auth.c > CMakeFiles/craft.dir/src/auth.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/devam/Programs/IIT2022035/GVC/Cubiverse/src/auth.c > CMakeFiles/craft.dir/src/auth.c.i
 
 CMakeFiles/craft.dir/src/auth.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/craft.dir/src/auth.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/devam/Downloads/Craft-master/src/auth.c -o CMakeFiles/craft.dir/src/auth.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/devam/Programs/IIT2022035/GVC/Cubiverse/src/auth.c -o CMakeFiles/craft.dir/src/auth.c.s
 
 CMakeFiles/craft.dir/src/client.c.o: CMakeFiles/craft.dir/flags.make
 CMakeFiles/craft.dir/src/client.c.o: src/client.c
 CMakeFiles/craft.dir/src/client.c.o: CMakeFiles/craft.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/devam/Downloads/Craft-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/craft.dir/src/client.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/craft.dir/src/client.c.o -MF CMakeFiles/craft.dir/src/client.c.o.d -o CMakeFiles/craft.dir/src/client.c.o -c /Users/devam/Downloads/Craft-master/src/client.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/devam/Programs/IIT2022035/GVC/Cubiverse/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/craft.dir/src/client.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/craft.dir/src/client.c.o -MF CMakeFiles/craft.dir/src/client.c.o.d -o CMakeFiles/craft.dir/src/client.c.o -c /Users/devam/Programs/IIT2022035/GVC/Cubiverse/src/client.c
 
 CMakeFiles/craft.dir/src/client.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/craft.dir/src/client.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/devam/Downloads/Craft-master/src/client.c > CMakeFiles/craft.dir/src/client.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/devam/Programs/IIT2022035/GVC/Cubiverse/src/client.c > CMakeFiles/craft.dir/src/client.c.i
 
 CMakeFiles/craft.dir/src/client.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/craft.dir/src/client.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/devam/Downloads/Craft-master/src/client.c -o CMakeFiles/craft.dir/src/client.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/devam/Programs/IIT2022035/GVC/Cubiverse/src/client.c -o CMakeFiles/craft.dir/src/client.c.s
 
 CMakeFiles/craft.dir/src/cube.c.o: CMakeFiles/craft.dir/flags.make
 CMakeFiles/craft.dir/src/cube.c.o: src/cube.c
 CMakeFiles/craft.dir/src/cube.c.o: CMakeFiles/craft.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/devam/Downloads/Craft-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/craft.dir/src/cube.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/craft.dir/src/cube.c.o -MF CMakeFiles/craft.dir/src/cube.c.o.d -o CMakeFiles/craft.dir/src/cube.c.o -c /Users/devam/Downloads/Craft-master/src/cube.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/devam/Programs/IIT2022035/GVC/Cubiverse/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/craft.dir/src/cube.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/craft.dir/src/cube.c.o -MF CMakeFiles/craft.dir/src/cube.c.o.d -o CMakeFiles/craft.dir/src/cube.c.o -c /Users/devam/Programs/IIT2022035/GVC/Cubiverse/src/cube.c
 
 CMakeFiles/craft.dir/src/cube.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/craft.dir/src/cube.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/devam/Downloads/Craft-master/src/cube.c > CMakeFiles/craft.dir/src/cube.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/devam/Programs/IIT2022035/GVC/Cubiverse/src/cube.c > CMakeFiles/craft.dir/src/cube.c.i
 
 CMakeFiles/craft.dir/src/cube.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/craft.dir/src/cube.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/devam/Downloads/Craft-master/src/cube.c -o CMakeFiles/craft.dir/src/cube.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/devam/Programs/IIT2022035/GVC/Cubiverse/src/cube.c -o CMakeFiles/craft.dir/src/cube.c.s
 
 CMakeFiles/craft.dir/src/db.c.o: CMakeFiles/craft.dir/flags.make
 CMakeFiles/craft.dir/src/db.c.o: src/db.c
 CMakeFiles/craft.dir/src/db.c.o: CMakeFiles/craft.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/devam/Downloads/Craft-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/craft.dir/src/db.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/craft.dir/src/db.c.o -MF CMakeFiles/craft.dir/src/db.c.o.d -o CMakeFiles/craft.dir/src/db.c.o -c /Users/devam/Downloads/Craft-master/src/db.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/devam/Programs/IIT2022035/GVC/Cubiverse/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/craft.dir/src/db.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/craft.dir/src/db.c.o -MF CMakeFiles/craft.dir/src/db.c.o.d -o CMakeFiles/craft.dir/src/db.c.o -c /Users/devam/Programs/IIT2022035/GVC/Cubiverse/src/db.c
 
 CMakeFiles/craft.dir/src/db.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/craft.dir/src/db.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/devam/Downloads/Craft-master/src/db.c > CMakeFiles/craft.dir/src/db.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/devam/Programs/IIT2022035/GVC/Cubiverse/src/db.c > CMakeFiles/craft.dir/src/db.c.i
 
 CMakeFiles/craft.dir/src/db.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/craft.dir/src/db.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/devam/Downloads/Craft-master/src/db.c -o CMakeFiles/craft.dir/src/db.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/devam/Programs/IIT2022035/GVC/Cubiverse/src/db.c -o CMakeFiles/craft.dir/src/db.c.s
 
 CMakeFiles/craft.dir/src/item.c.o: CMakeFiles/craft.dir/flags.make
 CMakeFiles/craft.dir/src/item.c.o: src/item.c
 CMakeFiles/craft.dir/src/item.c.o: CMakeFiles/craft.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/devam/Downloads/Craft-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/craft.dir/src/item.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/craft.dir/src/item.c.o -MF CMakeFiles/craft.dir/src/item.c.o.d -o CMakeFiles/craft.dir/src/item.c.o -c /Users/devam/Downloads/Craft-master/src/item.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/devam/Programs/IIT2022035/GVC/Cubiverse/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/craft.dir/src/item.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/craft.dir/src/item.c.o -MF CMakeFiles/craft.dir/src/item.c.o.d -o CMakeFiles/craft.dir/src/item.c.o -c /Users/devam/Programs/IIT2022035/GVC/Cubiverse/src/item.c
 
 CMakeFiles/craft.dir/src/item.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/craft.dir/src/item.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/devam/Downloads/Craft-master/src/item.c > CMakeFiles/craft.dir/src/item.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/devam/Programs/IIT2022035/GVC/Cubiverse/src/item.c > CMakeFiles/craft.dir/src/item.c.i
 
 CMakeFiles/craft.dir/src/item.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/craft.dir/src/item.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/devam/Downloads/Craft-master/src/item.c -o CMakeFiles/craft.dir/src/item.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/devam/Programs/IIT2022035/GVC/Cubiverse/src/item.c -o CMakeFiles/craft.dir/src/item.c.s
 
 CMakeFiles/craft.dir/src/main.c.o: CMakeFiles/craft.dir/flags.make
 CMakeFiles/craft.dir/src/main.c.o: src/main.c
 CMakeFiles/craft.dir/src/main.c.o: CMakeFiles/craft.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/devam/Downloads/Craft-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/craft.dir/src/main.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/craft.dir/src/main.c.o -MF CMakeFiles/craft.dir/src/main.c.o.d -o CMakeFiles/craft.dir/src/main.c.o -c /Users/devam/Downloads/Craft-master/src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/devam/Programs/IIT2022035/GVC/Cubiverse/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/craft.dir/src/main.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/craft.dir/src/main.c.o -MF CMakeFiles/craft.dir/src/main.c.o.d -o CMakeFiles/craft.dir/src/main.c.o -c /Users/devam/Programs/IIT2022035/GVC/Cubiverse/src/main.c
 
 CMakeFiles/craft.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/craft.dir/src/main.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/devam/Downloads/Craft-master/src/main.c > CMakeFiles/craft.dir/src/main.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/devam/Programs/IIT2022035/GVC/Cubiverse/src/main.c > CMakeFiles/craft.dir/src/main.c.i
 
 CMakeFiles/craft.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/craft.dir/src/main.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/devam/Downloads/Craft-master/src/main.c -o CMakeFiles/craft.dir/src/main.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/devam/Programs/IIT2022035/GVC/Cubiverse/src/main.c -o CMakeFiles/craft.dir/src/main.c.s
 
 CMakeFiles/craft.dir/src/map.c.o: CMakeFiles/craft.dir/flags.make
 CMakeFiles/craft.dir/src/map.c.o: src/map.c
 CMakeFiles/craft.dir/src/map.c.o: CMakeFiles/craft.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/devam/Downloads/Craft-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/craft.dir/src/map.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/craft.dir/src/map.c.o -MF CMakeFiles/craft.dir/src/map.c.o.d -o CMakeFiles/craft.dir/src/map.c.o -c /Users/devam/Downloads/Craft-master/src/map.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/devam/Programs/IIT2022035/GVC/Cubiverse/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/craft.dir/src/map.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/craft.dir/src/map.c.o -MF CMakeFiles/craft.dir/src/map.c.o.d -o CMakeFiles/craft.dir/src/map.c.o -c /Users/devam/Programs/IIT2022035/GVC/Cubiverse/src/map.c
 
 CMakeFiles/craft.dir/src/map.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/craft.dir/src/map.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/devam/Downloads/Craft-master/src/map.c > CMakeFiles/craft.dir/src/map.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/devam/Programs/IIT2022035/GVC/Cubiverse/src/map.c > CMakeFiles/craft.dir/src/map.c.i
 
 CMakeFiles/craft.dir/src/map.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/craft.dir/src/map.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/devam/Downloads/Craft-master/src/map.c -o CMakeFiles/craft.dir/src/map.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/devam/Programs/IIT2022035/GVC/Cubiverse/src/map.c -o CMakeFiles/craft.dir/src/map.c.s
 
 CMakeFiles/craft.dir/src/matrix.c.o: CMakeFiles/craft.dir/flags.make
 CMakeFiles/craft.dir/src/matrix.c.o: src/matrix.c
 CMakeFiles/craft.dir/src/matrix.c.o: CMakeFiles/craft.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/devam/Downloads/Craft-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/craft.dir/src/matrix.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/craft.dir/src/matrix.c.o -MF CMakeFiles/craft.dir/src/matrix.c.o.d -o CMakeFiles/craft.dir/src/matrix.c.o -c /Users/devam/Downloads/Craft-master/src/matrix.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/devam/Programs/IIT2022035/GVC/Cubiverse/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/craft.dir/src/matrix.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/craft.dir/src/matrix.c.o -MF CMakeFiles/craft.dir/src/matrix.c.o.d -o CMakeFiles/craft.dir/src/matrix.c.o -c /Users/devam/Programs/IIT2022035/GVC/Cubiverse/src/matrix.c
 
 CMakeFiles/craft.dir/src/matrix.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/craft.dir/src/matrix.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/devam/Downloads/Craft-master/src/matrix.c > CMakeFiles/craft.dir/src/matrix.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/devam/Programs/IIT2022035/GVC/Cubiverse/src/matrix.c > CMakeFiles/craft.dir/src/matrix.c.i
 
 CMakeFiles/craft.dir/src/matrix.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/craft.dir/src/matrix.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/devam/Downloads/Craft-master/src/matrix.c -o CMakeFiles/craft.dir/src/matrix.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/devam/Programs/IIT2022035/GVC/Cubiverse/src/matrix.c -o CMakeFiles/craft.dir/src/matrix.c.s
 
 CMakeFiles/craft.dir/src/ring.c.o: CMakeFiles/craft.dir/flags.make
 CMakeFiles/craft.dir/src/ring.c.o: src/ring.c
 CMakeFiles/craft.dir/src/ring.c.o: CMakeFiles/craft.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/devam/Downloads/Craft-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/craft.dir/src/ring.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/craft.dir/src/ring.c.o -MF CMakeFiles/craft.dir/src/ring.c.o.d -o CMakeFiles/craft.dir/src/ring.c.o -c /Users/devam/Downloads/Craft-master/src/ring.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/devam/Programs/IIT2022035/GVC/Cubiverse/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/craft.dir/src/ring.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/craft.dir/src/ring.c.o -MF CMakeFiles/craft.dir/src/ring.c.o.d -o CMakeFiles/craft.dir/src/ring.c.o -c /Users/devam/Programs/IIT2022035/GVC/Cubiverse/src/ring.c
 
 CMakeFiles/craft.dir/src/ring.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/craft.dir/src/ring.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/devam/Downloads/Craft-master/src/ring.c > CMakeFiles/craft.dir/src/ring.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/devam/Programs/IIT2022035/GVC/Cubiverse/src/ring.c > CMakeFiles/craft.dir/src/ring.c.i
 
 CMakeFiles/craft.dir/src/ring.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/craft.dir/src/ring.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/devam/Downloads/Craft-master/src/ring.c -o CMakeFiles/craft.dir/src/ring.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/devam/Programs/IIT2022035/GVC/Cubiverse/src/ring.c -o CMakeFiles/craft.dir/src/ring.c.s
 
 CMakeFiles/craft.dir/src/sign.c.o: CMakeFiles/craft.dir/flags.make
 CMakeFiles/craft.dir/src/sign.c.o: src/sign.c
 CMakeFiles/craft.dir/src/sign.c.o: CMakeFiles/craft.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/devam/Downloads/Craft-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/craft.dir/src/sign.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/craft.dir/src/sign.c.o -MF CMakeFiles/craft.dir/src/sign.c.o.d -o CMakeFiles/craft.dir/src/sign.c.o -c /Users/devam/Downloads/Craft-master/src/sign.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/devam/Programs/IIT2022035/GVC/Cubiverse/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/craft.dir/src/sign.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/craft.dir/src/sign.c.o -MF CMakeFiles/craft.dir/src/sign.c.o.d -o CMakeFiles/craft.dir/src/sign.c.o -c /Users/devam/Programs/IIT2022035/GVC/Cubiverse/src/sign.c
 
 CMakeFiles/craft.dir/src/sign.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/craft.dir/src/sign.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/devam/Downloads/Craft-master/src/sign.c > CMakeFiles/craft.dir/src/sign.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/devam/Programs/IIT2022035/GVC/Cubiverse/src/sign.c > CMakeFiles/craft.dir/src/sign.c.i
 
 CMakeFiles/craft.dir/src/sign.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/craft.dir/src/sign.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/devam/Downloads/Craft-master/src/sign.c -o CMakeFiles/craft.dir/src/sign.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/devam/Programs/IIT2022035/GVC/Cubiverse/src/sign.c -o CMakeFiles/craft.dir/src/sign.c.s
 
 CMakeFiles/craft.dir/src/util.c.o: CMakeFiles/craft.dir/flags.make
 CMakeFiles/craft.dir/src/util.c.o: src/util.c
 CMakeFiles/craft.dir/src/util.c.o: CMakeFiles/craft.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/devam/Downloads/Craft-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/craft.dir/src/util.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/craft.dir/src/util.c.o -MF CMakeFiles/craft.dir/src/util.c.o.d -o CMakeFiles/craft.dir/src/util.c.o -c /Users/devam/Downloads/Craft-master/src/util.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/devam/Programs/IIT2022035/GVC/Cubiverse/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/craft.dir/src/util.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/craft.dir/src/util.c.o -MF CMakeFiles/craft.dir/src/util.c.o.d -o CMakeFiles/craft.dir/src/util.c.o -c /Users/devam/Programs/IIT2022035/GVC/Cubiverse/src/util.c
 
 CMakeFiles/craft.dir/src/util.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/craft.dir/src/util.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/devam/Downloads/Craft-master/src/util.c > CMakeFiles/craft.dir/src/util.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/devam/Programs/IIT2022035/GVC/Cubiverse/src/util.c > CMakeFiles/craft.dir/src/util.c.i
 
 CMakeFiles/craft.dir/src/util.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/craft.dir/src/util.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/devam/Downloads/Craft-master/src/util.c -o CMakeFiles/craft.dir/src/util.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/devam/Programs/IIT2022035/GVC/Cubiverse/src/util.c -o CMakeFiles/craft.dir/src/util.c.s
 
 CMakeFiles/craft.dir/src/world.c.o: CMakeFiles/craft.dir/flags.make
 CMakeFiles/craft.dir/src/world.c.o: src/world.c
 CMakeFiles/craft.dir/src/world.c.o: CMakeFiles/craft.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/devam/Downloads/Craft-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/craft.dir/src/world.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/craft.dir/src/world.c.o -MF CMakeFiles/craft.dir/src/world.c.o.d -o CMakeFiles/craft.dir/src/world.c.o -c /Users/devam/Downloads/Craft-master/src/world.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/devam/Programs/IIT2022035/GVC/Cubiverse/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/craft.dir/src/world.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/craft.dir/src/world.c.o -MF CMakeFiles/craft.dir/src/world.c.o.d -o CMakeFiles/craft.dir/src/world.c.o -c /Users/devam/Programs/IIT2022035/GVC/Cubiverse/src/world.c
 
 CMakeFiles/craft.dir/src/world.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/craft.dir/src/world.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/devam/Downloads/Craft-master/src/world.c > CMakeFiles/craft.dir/src/world.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/devam/Programs/IIT2022035/GVC/Cubiverse/src/world.c > CMakeFiles/craft.dir/src/world.c.i
 
 CMakeFiles/craft.dir/src/world.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/craft.dir/src/world.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/devam/Downloads/Craft-master/src/world.c -o CMakeFiles/craft.dir/src/world.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/devam/Programs/IIT2022035/GVC/Cubiverse/src/world.c -o CMakeFiles/craft.dir/src/world.c.s
 
 CMakeFiles/craft.dir/deps/glew/src/glew.c.o: CMakeFiles/craft.dir/flags.make
 CMakeFiles/craft.dir/deps/glew/src/glew.c.o: deps/glew/src/glew.c
 CMakeFiles/craft.dir/deps/glew/src/glew.c.o: CMakeFiles/craft.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/devam/Downloads/Craft-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/craft.dir/deps/glew/src/glew.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/craft.dir/deps/glew/src/glew.c.o -MF CMakeFiles/craft.dir/deps/glew/src/glew.c.o.d -o CMakeFiles/craft.dir/deps/glew/src/glew.c.o -c /Users/devam/Downloads/Craft-master/deps/glew/src/glew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/devam/Programs/IIT2022035/GVC/Cubiverse/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/craft.dir/deps/glew/src/glew.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/craft.dir/deps/glew/src/glew.c.o -MF CMakeFiles/craft.dir/deps/glew/src/glew.c.o.d -o CMakeFiles/craft.dir/deps/glew/src/glew.c.o -c /Users/devam/Programs/IIT2022035/GVC/Cubiverse/deps/glew/src/glew.c
 
 CMakeFiles/craft.dir/deps/glew/src/glew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/craft.dir/deps/glew/src/glew.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/devam/Downloads/Craft-master/deps/glew/src/glew.c > CMakeFiles/craft.dir/deps/glew/src/glew.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/devam/Programs/IIT2022035/GVC/Cubiverse/deps/glew/src/glew.c > CMakeFiles/craft.dir/deps/glew/src/glew.c.i
 
 CMakeFiles/craft.dir/deps/glew/src/glew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/craft.dir/deps/glew/src/glew.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/devam/Downloads/Craft-master/deps/glew/src/glew.c -o CMakeFiles/craft.dir/deps/glew/src/glew.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/devam/Programs/IIT2022035/GVC/Cubiverse/deps/glew/src/glew.c -o CMakeFiles/craft.dir/deps/glew/src/glew.c.s
 
 CMakeFiles/craft.dir/deps/lodepng/lodepng.c.o: CMakeFiles/craft.dir/flags.make
 CMakeFiles/craft.dir/deps/lodepng/lodepng.c.o: deps/lodepng/lodepng.c
 CMakeFiles/craft.dir/deps/lodepng/lodepng.c.o: CMakeFiles/craft.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/devam/Downloads/Craft-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/craft.dir/deps/lodepng/lodepng.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/craft.dir/deps/lodepng/lodepng.c.o -MF CMakeFiles/craft.dir/deps/lodepng/lodepng.c.o.d -o CMakeFiles/craft.dir/deps/lodepng/lodepng.c.o -c /Users/devam/Downloads/Craft-master/deps/lodepng/lodepng.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/devam/Programs/IIT2022035/GVC/Cubiverse/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/craft.dir/deps/lodepng/lodepng.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/craft.dir/deps/lodepng/lodepng.c.o -MF CMakeFiles/craft.dir/deps/lodepng/lodepng.c.o.d -o CMakeFiles/craft.dir/deps/lodepng/lodepng.c.o -c /Users/devam/Programs/IIT2022035/GVC/Cubiverse/deps/lodepng/lodepng.c
 
 CMakeFiles/craft.dir/deps/lodepng/lodepng.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/craft.dir/deps/lodepng/lodepng.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/devam/Downloads/Craft-master/deps/lodepng/lodepng.c > CMakeFiles/craft.dir/deps/lodepng/lodepng.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/devam/Programs/IIT2022035/GVC/Cubiverse/deps/lodepng/lodepng.c > CMakeFiles/craft.dir/deps/lodepng/lodepng.c.i
 
 CMakeFiles/craft.dir/deps/lodepng/lodepng.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/craft.dir/deps/lodepng/lodepng.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/devam/Downloads/Craft-master/deps/lodepng/lodepng.c -o CMakeFiles/craft.dir/deps/lodepng/lodepng.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/devam/Programs/IIT2022035/GVC/Cubiverse/deps/lodepng/lodepng.c -o CMakeFiles/craft.dir/deps/lodepng/lodepng.c.s
 
 CMakeFiles/craft.dir/deps/noise/noise.c.o: CMakeFiles/craft.dir/flags.make
 CMakeFiles/craft.dir/deps/noise/noise.c.o: deps/noise/noise.c
 CMakeFiles/craft.dir/deps/noise/noise.c.o: CMakeFiles/craft.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/devam/Downloads/Craft-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/craft.dir/deps/noise/noise.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/craft.dir/deps/noise/noise.c.o -MF CMakeFiles/craft.dir/deps/noise/noise.c.o.d -o CMakeFiles/craft.dir/deps/noise/noise.c.o -c /Users/devam/Downloads/Craft-master/deps/noise/noise.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/devam/Programs/IIT2022035/GVC/Cubiverse/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/craft.dir/deps/noise/noise.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/craft.dir/deps/noise/noise.c.o -MF CMakeFiles/craft.dir/deps/noise/noise.c.o.d -o CMakeFiles/craft.dir/deps/noise/noise.c.o -c /Users/devam/Programs/IIT2022035/GVC/Cubiverse/deps/noise/noise.c
 
 CMakeFiles/craft.dir/deps/noise/noise.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/craft.dir/deps/noise/noise.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/devam/Downloads/Craft-master/deps/noise/noise.c > CMakeFiles/craft.dir/deps/noise/noise.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/devam/Programs/IIT2022035/GVC/Cubiverse/deps/noise/noise.c > CMakeFiles/craft.dir/deps/noise/noise.c.i
 
 CMakeFiles/craft.dir/deps/noise/noise.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/craft.dir/deps/noise/noise.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/devam/Downloads/Craft-master/deps/noise/noise.c -o CMakeFiles/craft.dir/deps/noise/noise.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/devam/Programs/IIT2022035/GVC/Cubiverse/deps/noise/noise.c -o CMakeFiles/craft.dir/deps/noise/noise.c.s
 
 CMakeFiles/craft.dir/deps/sqlite/sqlite3.c.o: CMakeFiles/craft.dir/flags.make
 CMakeFiles/craft.dir/deps/sqlite/sqlite3.c.o: deps/sqlite/sqlite3.c
 CMakeFiles/craft.dir/deps/sqlite/sqlite3.c.o: CMakeFiles/craft.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/devam/Downloads/Craft-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/craft.dir/deps/sqlite/sqlite3.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/craft.dir/deps/sqlite/sqlite3.c.o -MF CMakeFiles/craft.dir/deps/sqlite/sqlite3.c.o.d -o CMakeFiles/craft.dir/deps/sqlite/sqlite3.c.o -c /Users/devam/Downloads/Craft-master/deps/sqlite/sqlite3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/devam/Programs/IIT2022035/GVC/Cubiverse/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/craft.dir/deps/sqlite/sqlite3.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/craft.dir/deps/sqlite/sqlite3.c.o -MF CMakeFiles/craft.dir/deps/sqlite/sqlite3.c.o.d -o CMakeFiles/craft.dir/deps/sqlite/sqlite3.c.o -c /Users/devam/Programs/IIT2022035/GVC/Cubiverse/deps/sqlite/sqlite3.c
 
 CMakeFiles/craft.dir/deps/sqlite/sqlite3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/craft.dir/deps/sqlite/sqlite3.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/devam/Downloads/Craft-master/deps/sqlite/sqlite3.c > CMakeFiles/craft.dir/deps/sqlite/sqlite3.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/devam/Programs/IIT2022035/GVC/Cubiverse/deps/sqlite/sqlite3.c > CMakeFiles/craft.dir/deps/sqlite/sqlite3.c.i
 
 CMakeFiles/craft.dir/deps/sqlite/sqlite3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/craft.dir/deps/sqlite/sqlite3.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/devam/Downloads/Craft-master/deps/sqlite/sqlite3.c -o CMakeFiles/craft.dir/deps/sqlite/sqlite3.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/devam/Programs/IIT2022035/GVC/Cubiverse/deps/sqlite/sqlite3.c -o CMakeFiles/craft.dir/deps/sqlite/sqlite3.c.s
 
 CMakeFiles/craft.dir/deps/tinycthread/tinycthread.c.o: CMakeFiles/craft.dir/flags.make
 CMakeFiles/craft.dir/deps/tinycthread/tinycthread.c.o: deps/tinycthread/tinycthread.c
 CMakeFiles/craft.dir/deps/tinycthread/tinycthread.c.o: CMakeFiles/craft.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/devam/Downloads/Craft-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/craft.dir/deps/tinycthread/tinycthread.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/craft.dir/deps/tinycthread/tinycthread.c.o -MF CMakeFiles/craft.dir/deps/tinycthread/tinycthread.c.o.d -o CMakeFiles/craft.dir/deps/tinycthread/tinycthread.c.o -c /Users/devam/Downloads/Craft-master/deps/tinycthread/tinycthread.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/devam/Programs/IIT2022035/GVC/Cubiverse/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/craft.dir/deps/tinycthread/tinycthread.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/craft.dir/deps/tinycthread/tinycthread.c.o -MF CMakeFiles/craft.dir/deps/tinycthread/tinycthread.c.o.d -o CMakeFiles/craft.dir/deps/tinycthread/tinycthread.c.o -c /Users/devam/Programs/IIT2022035/GVC/Cubiverse/deps/tinycthread/tinycthread.c
 
 CMakeFiles/craft.dir/deps/tinycthread/tinycthread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/craft.dir/deps/tinycthread/tinycthread.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/devam/Downloads/Craft-master/deps/tinycthread/tinycthread.c > CMakeFiles/craft.dir/deps/tinycthread/tinycthread.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/devam/Programs/IIT2022035/GVC/Cubiverse/deps/tinycthread/tinycthread.c > CMakeFiles/craft.dir/deps/tinycthread/tinycthread.c.i
 
 CMakeFiles/craft.dir/deps/tinycthread/tinycthread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/craft.dir/deps/tinycthread/tinycthread.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/devam/Downloads/Craft-master/deps/tinycthread/tinycthread.c -o CMakeFiles/craft.dir/deps/tinycthread/tinycthread.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/devam/Programs/IIT2022035/GVC/Cubiverse/deps/tinycthread/tinycthread.c -o CMakeFiles/craft.dir/deps/tinycthread/tinycthread.c.s
 
 # Object files for target craft
 craft_OBJECTS = \
@@ -353,7 +353,7 @@ craft: /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/lib/libcurl.t
 craft: deps/glfw/src/libglfw3.a
 craft: /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/lib/libcurl.tbd
 craft: CMakeFiles/craft.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/devam/Downloads/Craft-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking C executable craft"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/devam/Programs/IIT2022035/GVC/Cubiverse/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking C executable craft"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/craft.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -365,6 +365,6 @@ CMakeFiles/craft.dir/clean:
 .PHONY : CMakeFiles/craft.dir/clean
 
 CMakeFiles/craft.dir/depend:
-	cd /Users/devam/Downloads/Craft-master && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/devam/Downloads/Craft-master /Users/devam/Downloads/Craft-master /Users/devam/Downloads/Craft-master /Users/devam/Downloads/Craft-master /Users/devam/Downloads/Craft-master/CMakeFiles/craft.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/devam/Programs/IIT2022035/GVC/Cubiverse && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/devam/Programs/IIT2022035/GVC/Cubiverse /Users/devam/Programs/IIT2022035/GVC/Cubiverse /Users/devam/Programs/IIT2022035/GVC/Cubiverse /Users/devam/Programs/IIT2022035/GVC/Cubiverse /Users/devam/Programs/IIT2022035/GVC/Cubiverse/CMakeFiles/craft.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/craft.dir/depend
 

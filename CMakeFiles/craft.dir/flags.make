@@ -4,7 +4,7 @@
 # compile C with /Library/Developer/CommandLineTools/usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/devam/Downloads/Craft-master/deps/glew/include -I/Users/devam/Downloads/Craft-master/deps/glfw/include -I/Users/devam/Downloads/Craft-master/deps/lodepng -I/Users/devam/Downloads/Craft-master/deps/noise -I/Users/devam/Downloads/Craft-master/deps/sqlite -I/Users/devam/Downloads/Craft-master/deps/tinycthread -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks
+C_INCLUDES = -I/Users/devam/Programs/IIT2022035/GVC/Cubiverse/deps/glew/include -I/Users/devam/Programs/IIT2022035/GVC/Cubiverse/deps/glfw/include -I/Users/devam/Programs/IIT2022035/GVC/Cubiverse/deps/lodepng -I/Users/devam/Programs/IIT2022035/GVC/Cubiverse/deps/noise -I/Users/devam/Programs/IIT2022035/GVC/Cubiverse/deps/sqlite -I/Users/devam/Programs/IIT2022035/GVC/Cubiverse/deps/tinycthread -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks
 
 C_FLAGSarm64 =  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk   -std=c99 -O3
 
