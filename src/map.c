@@ -97,18 +97,18 @@ int map_get(Map *map, int x, int y, int z) {
 }
 
 void map_grow(Map *map) {
-    Map new_map;
-    new_map.dx = map->dx;
-    new_map.dy = map->dy;
-    new_map.dz = map->dz;
-    new_map.mask = (map->mask << 1) | 1;
-    new_map.size = 0;
-    new_map.data = (MapEntry *)calloc(new_map.mask + 1, sizeof(MapEntry));
-    MAP_FOR_EACH(map, ex, ey, ez, ew) {
-        map_set(&new_map, ex, ey, ez, ew);
-    } END_MAP_FOR_EACH;
-    free(map->data);
-    map->mask = new_map.mask;
-    map->size = new_map.size;
-    map->data = new_map.data;
+    // Map new_map;
+    // new_map.dx = map->dx;
+    // new_map.dy = map->dy;
+    // new_map.dz = map->dz;
+    // new_map.mask = (map->mask << 1) | 1;
+    // new_map.size = 0;
+    // new_map.data = (MapEntry *)calloc(new_map.mask + 1, sizeof(MapEntry));
+    // MAP_FOR_EACH(map, ex, ey, ez, ew) {
+    //     map_set(&new_map, ex, ey, ez, ew);
+    // } END_MAP_FOR_EACH;
+    // free(map->data);
+    // map->mask = new_map.mask;
+    // map->size = new_map.size;
+    // map->data = new_map.data;
 }
